@@ -1,0 +1,145 @@
+.clear-fix{
+    clear: both;
+}
+
+body {
+	background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    font-family: Arial;
+	background-color: black;
+    background-image: url("../background_image/undertale_background.png");
+}
+
+#header{
+    display: inline-block;
+}
+
+#navigation ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0px;
+    float: left;
+}
+
+#navigation li a{
+display: inline-block;
+width: 100px;
+height: 45px;
+background-color: black;
+text-align: center;
+color: #fff;
+margin: 0 auto;
+}
+
+
+#logo{
+    list-style: none;
+    color: #fff;
+    display: inline-block;
+    background-color: black;
+    
+    height: 100px;
+    text-align: center; 
+    
+}
+
+#logo a{
+    color: #fff;
+}
+
+#logo img{
+    margin: 0 auto;
+    background-color: none;
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+.main-container{
+    width: 1000px;
+    margin: 0 auto; 
+    border: 1px solid #fff;
+}
+
+
+#button_For_GamePages img {
+    height: 250px;
+    widows: 150px;
+  
+}
+
+#text_box{
+    border: 1px solid #fff;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+ 
+#Footer{
+    height: 100px;
+    margin: 0 auto;
+    background-color: #fff;
+    width: 1000px;
+    border: 1px solid #fff;
+}
+
+#Footer img{
+    height: 100px;
+    width: 100px;
+}
+
+.LiFloater{
+    float: left;
+}
+
+.text-container{
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    color: red;
+}
+
+.game-container{
+    display: inline-block;
+    width: 230px;
+    margin: 0 auto;
+    border: 1px solid red;
+    height: 400px;
+    margin-top: 1px;
+    background-color: #fff;
+}
+
+.picture{
+    width: 230px;
+    height: 300px;
+    background-color: green;
+    float: left;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+#contactFoto img{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.order-button{
+    position: absolute;
+    background-color:black; 
+}
+
+.order-button a{
+    display: inline-block;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    color: #fff;
+}
